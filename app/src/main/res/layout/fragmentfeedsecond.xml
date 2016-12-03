@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="320dp" />
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/p3" />
+
+    <TextView
+        android:id="@+id/item"
+        android:text="BloodSeeker"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_weight="0.59"
+        android:layout_width="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="27dp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif"
+        tools:text="BloodSeeker" />
+
+    <TextView
+        android:id="@+id/bloodtype"
+        android:layout_width="200dp"
+        android:text="Just now"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item"
+        android:layout_alignLeft="@+id/item"
+        android:layout_alignStart="@+id/item" />
+
+    <TextView
+        android:text="You are highly needed!"
+        android:id="@+id/tvdesc"
+        android:layout_width="300dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/icon"
+        android:layout_alignLeft="@+id/icon"
+        android:layout_alignStart="@+id/icon"
+        android:layout_height="30dp" />
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="370dp"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:layout_height="240dp"
+        android:layout_below="@+id/tvdesc"
+        android:layout_alignLeft="@+id/tvdesc"
+        android:layout_alignStart="@+id/tvdesc">
+
+        <ImageView
+            android:id="@+id/imPic"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/h1"
+            android:layout_marginRight="10dp" />
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/listFeedSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rel">
+    </ListView>
+</RelativeLayout>

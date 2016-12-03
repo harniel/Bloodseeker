@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/route"
+            android:title="Map"
+            android:id="@+id/map" />
+
+        <item
+            android:icon="@drawable/newspaper"
+            android:title="Feed"
+            android:id="@+id/feed" />
+        <item
+            android:icon="@drawable/notification"
+            android:title="Notification"
+            android:id="@+id/nav_notif" />
+        <item
+            android:icon="@drawable/donate"
+            android:title="Donate"
+            android:id="@+id/nav_donate" />
+        <item
+            android:icon="@drawable/request"
+            android:title="Request"
+            android:id="@+id/nav_request" />
+        <item
+            android:icon="@drawable/history"
+            android:title="History"
+            android:id="@+id/nav_history" />
+        <item
+            android:icon="@drawable/rewards"
+            android:title="Rewards"
+            android:id="@+id/nav_rewards" />
+        <item
+            android:icon="@drawable/followers"
+            android:title="Followers"
+            android:id="@+id/nav_followers" />
+        <item
+            android:icon="@drawable/campaign"
+            android:title="Campaign"
+            android:id="@+id/campaign" />
+
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:icon="@drawable/support"
+                android:title="Support"
+                android:id="@+id/nav_support" />
+
+            <item android:title="Log out"
+                android:id="@+id/nav_logout" />
+        </menu>
+    </item>
+
+</menu>

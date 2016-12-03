@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_access_app_google"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LogInGoogle">
+
+    <ImageView
+        android:layout_width="10dp"
+        app:srcCompat="@drawable/arrowdown"
+        android:id="@+id/imageView7"
+        android:layout_marginEnd="18dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        app:srcCompat="@drawable/googleicon"
+        android:id="@+id/imageView3"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/textView9"
+        android:layout_width="40dp" />
+
+    <TextView
+        android:text="harnielsal@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_toStartOf="@+id/imageView7" />
+
+    <ImageView
+        android:layout_width="60dp"
+        app:srcCompat="@drawable/ako"
+        android:layout_marginTop="60dp"
+        android:id="@+id/imageView8"
+        android:layout_below="@+id/imageView3"
+        android:layout_toStartOf="@+id/textView9"
+        android:layout_height="60dp" />
+
+    <ImageView
+        android:layout_width="10dp"
+        app:srcCompat="@drawable/arrowdown"
+        android:id="@+id/imageView9"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/imageView8"
+        android:layout_toStartOf="@+id/imageView8"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:text="Bloodseeker would like to:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/user"
+                    android:id="@+id/imageView19"
+                    android:layout_width="30dp" />
+
+                <TextView
+                    android:text="View your Profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView23"
+                    android:layout_marginStart="26dp"
+                    android:layout_alignBottom="@+id/imageView19"
+                    android:layout_toEndOf="@+id/imageView19"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:text="View your circle list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView24"
+                    android:textColor="@color/black"
+                    android:layout_alignBottom="@+id/imageView21"
+                    android:layout_alignStart="@+id/textView23" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/user"
+                    android:id="@+id/imageView21"
+                    android:layout_below="@+id/imageView19"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="18dp" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/user"
+                    android:id="@+id/imageView24"
+                    android:layout_marginTop="19dp"
+                    android:layout_below="@+id/imageView21"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="View your Email address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView25"
+                    android:textColor="@color/black"
+                    android:layout_alignBottom="@+id/imageView24"
+                    android:layout_alignStart="@+id/textView24" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/user"
+                    android:id="@+id/imageView26"
+                    android:layout_marginTop="24dp"
+                    android:layout_below="@+id/imageView24"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="View your Contact informations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView22"
+                    android:textColor="@color/black"
+                    android:layout_alignBottom="@+id/imageView26"
+                    android:layout_alignStart="@+id/textView25" />
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <Button
+        android:text="Allow"
+        android:id="@+id/buttonAllow"
+        android:background="@color/fbTheme"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_width="60dp"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:text="By clicking Allow, you allow this app and Google to use your information in accordance with their respective terms of services and privacy policies. You can change this and other Account Permissions at any time."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/textView26"
+        android:textSize="10sp"
+        android:layout_above="@+id/buttonAllow"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        app:srcCompat="@drawable/bslogo3"
+        android:id="@+id/lgogo"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_alignEnd="@+id/textView10" />
+
+    <Button
+        android:text="Deny"
+        android:id="@+id/denyGoogle"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_width="60dp"
+        android:textAllCaps="false"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/buttonAllow"
+        android:layout_marginEnd="19dp" />
+
+</RelativeLayout>

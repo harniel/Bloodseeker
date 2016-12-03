@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <!--imported-->
+    <color name="colorPrimary">#d94949</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#212121</color>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorBlack">#2E3436</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorScheme">#d94949</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="white">#eae0e0</color>
+    <color name="black">#000000</color>
+    <color name="fbTheme">#3b5998</color>
+    <color name="loginfbbutton">#8b9dc3</color>
+    <color name="loginfb">#dfe3ee</color>
+    <color name="meantCream">#fefcf0</color>
+
+    <!--tabs-->
+    <color name="windowBackground">#000</color>
+    <color name="navigationBarColor">#000000</color>
+
+    <!--alyzza-->
+
+    <color name="colorPopUp">#f44336</color>
+</resources>

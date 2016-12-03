@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/item"
+        android:text="Harniel Salmeron"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:layout_weight="0.59"
+        android:layout_width="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="27dp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Date Donated:"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10sp"
+        android:layout_below="@+id/bloodtype"
+        android:layout_alignLeft="@+id/bloodtype"
+        android:layout_alignStart="@+id/bloodtype" />
+
+    <TextView
+        android:id="@+id/bloodtype"
+        android:layout_width="200dp"
+        android:text="Blood Type:"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item"
+        android:layout_alignLeft="@+id/item"
+        android:layout_alignStart="@+id/item" />
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:background="@drawable/listbg10"
+        android:layout_width="370dp"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:layout_height="240dp"
+        android:layout_below="@+id/tvdesc"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imPic"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="28dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="this is the desciption"
+        android:id="@+id/tvdesc"
+        android:layout_width="300dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/icon"
+        android:layout_alignLeft="@+id/icon"
+        android:layout_alignStart="@+id/icon" />
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Bloodseeker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--imported-->
+    <string name="hintUsername">Username</string>
+    <string name="hintPassword">Password</string>
+
+    <!--nothing-->
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="title_activity_facebook_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email or Phone</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">LOG IN</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_homepage">Bloodseeker</string>
+
+    <string name="title_activity_hompage">Hompage</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--alyzza-->
+    <string name="request">REQUEST</string>
+    <string name="patient_s_name">Patient\'s Name</string>
+    <string name="age">Age</string>
+    <string name="attending_physician">Attending Physician</string>
+    <string name="clinical_diagnosis">Clinical Diagnosis</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="component_needed">Component Needed</string>
+    <string name="dialog_request">Please proceed to the hospital office for verification</string>
+    <string name="verify">VERIFY</string>
+    <string name="dialog_searching">Please wait for we are searching for your donor.</string>
+    <string name="hospital">Hospital</string>
+    <string name="reqst">REQUEST</string>
+    <string-array name="blood_types">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="components">
+        <item>White Blood</item>
+        <item>Packed RBC</item>
+        <item>Platelet</item>
+        <item>Cryoprecipitate</item>
+        <item>Fresh Frozen Plasma</item>
+    </string-array>
+    <string name="title_activity_home">Bloodseeker</string>
+    <string name="title_activity_home2">Home</string>
+
+
+</resources>
